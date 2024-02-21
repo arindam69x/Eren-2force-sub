@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Its_Oreki_Hotarou\nMy Channel - @Anime_X_Hunters\nDicsussion Group - @Hunters_Discussion</a>\n\n👨‍💻 Developed by @Its_Oreki_Hotarou</b>",
+            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - <a href=https://t.me/arindam69x>Arindam</a>\nMy Channel - @Anime_Sprizen\nDicsussion Group - @Anime_Group_Chat_AGC</a>\n\n👨‍💻 Developed by <a href=https://t.me/Anime_Sprizen>Anime Sprizen</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
