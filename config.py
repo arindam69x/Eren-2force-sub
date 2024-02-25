@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "⚡Hi dude .. {first}\n\nI am a file sharing bot \nJoin Anime_Spizen to enjoy new and old Anime")
+START_MSG = os.environ.get("START_MESSAGE", "⚡Yo Dude.. {first}\n\nI'm here to help! I keep private files in a special channel and share links so others can access them effortlessly")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5205293211").split()):
