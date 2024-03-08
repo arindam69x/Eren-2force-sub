@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "⚡Yo Dude.. {first}\n\nI'm here to help! I keep private files in a special channel and share links so others can access them effortlessly")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[6304277259]
     for x in (os.environ.get("ADMINS", "5205293211").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - @Anime_Sprizen"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(6304277259)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
